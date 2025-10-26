@@ -134,10 +134,7 @@ export default function Portfolio() {
     { name: 'Bootstrap', color: 'primary' },
     { name: 'Tailwind CSS', color: 'info' },
     { name: 'REST API', color: 'secondary' },
-    { name: 'GraphQL', color: 'danger' },
     { name: 'Git', color: 'dark' },
-    { name: 'Docker', color: 'info' },
-    { name: 'AWS', color: 'warning' },
     { name: 'Redux', color: 'primary' }
   ];
 
@@ -190,8 +187,8 @@ export default function Portfolio() {
         <div className="container">
           <div className="row align-items-center min-vh-75">
             <div className="col-lg-8 mx-auto text-center">
-              <h1 className="display-3 fw-bold mb-3">Full Stack Web Developer</h1>
-              <p className="lead mb-4">Hi, I'm Alex Morgan. I craft beautiful, functional web experiences using the MERN stack.</p>
+              <h1 className="display-3 fw-bold mb-3">Web Enthusiast & Developer-in-Progress</h1>
+              <p className="lead mb-4">Hi, I'm Shaswati. I enjoy creating simple, elegant web experiences and growing my skills one project at a time.</p>
               <div className="d-flex gap-3 justify-content-center">
                 <a href="#projects" className="btn btn-primary btn-lg">View My Work</a>
                 <a href="#contact" className="btn btn-outline-primary btn-lg">Get In Touch</a>
@@ -208,12 +205,10 @@ export default function Portfolio() {
             <div className="col-lg-8 mx-auto">
               <h2 className="display-5 fw-bold mb-4 text-center">About Me</h2>
               <p className="lead text-center mb-4">
-                I'm a passionate full-stack developer with 5+ years of experience building scalable web applications.
-                I specialize in the MERN stack and love turning complex problems into simple, beautiful, and intuitive solutions.
-              </p>
+                I'm an enthusiastic and curious techie with a growing passion for web development. During my studies, I built my first blog and shopping websites, which sparked my love for creating interactive and user-friendly digital experiences. 
+                I enjoy exploring how different technologies come together to build modern web applications and am constantly learning to strengthen my front-end and back-end development skills.</p>
               <p className="text-center">
-                When I'm not coding, you'll find me contributing to open-source projects, writing technical blog posts,
-                or exploring new technologies. I'm always excited to take on new challenges and collaborate with creative teams.
+                When I’m not coding, I love experimenting with new design ideas, reading about emerging tech trends, and finding creative ways to improve my projects. I’m excited to keep learning, building, and collaborating on projects that make a real impact.
               </p>
             </div>
           </div>
@@ -332,55 +327,6 @@ export default function Portfolio() {
         </div>
       </section>
 
-      {/* Resume Section */}
-      <section id="resume" className="py-5">
-        <div className="container">
-          <h2 className="display-5 fw-bold mb-5 text-center">Resume</h2>
-          <div className="row">
-            <div className="col-lg-8 mx-auto">
-              <div className={`card ${darkMode ? 'bg-secondary text-light' : ''} shadow`}>
-                <div className="card-body p-5">
-                  <h3 className="fw-bold mb-4">Experience</h3>
-
-                  <div className="mb-4">
-                    <h5 className="fw-bold">Senior Full Stack Developer</h5>
-                    <p className="text-muted mb-2">Tech Innovations Inc. | 2021 - Present</p>
-                    <ul>
-                      <li>Led development of enterprise-level web applications using MERN stack</li>
-                      <li>Improved application performance by 40% through optimization techniques</li>
-                      <li>Mentored junior developers and conducted code reviews</li>
-                    </ul>
-                  </div>
-
-                  <div className="mb-4">
-                    <h5 className="fw-bold">Full Stack Developer</h5>
-                    <p className="text-muted mb-2">Digital Solutions Ltd. | 2019 - 2021</p>
-                    <ul>
-                      <li>Built responsive web applications for various clients</li>
-                      <li>Implemented RESTful APIs and integrated third-party services</li>
-                      <li>Collaborated with UI/UX designers to create seamless user experiences</li>
-                    </ul>
-                  </div>
-
-                  <h3 className="fw-bold mb-4 mt-5">Education</h3>
-                  <div className="mb-4">
-                    <h5 className="fw-bold">Bachelor of Science in Computer Science</h5>
-                    <p className="text-muted mb-2">University of Technology | 2015 - 2019</p>
-                  </div>
-
-                  <div className="text-center mt-5">
-                    <a className="btn btn-primary btn-lg" href='/resume.pdf' download >
-                      <Download size={20} className="me-2" />
-                      Download Full Resume (PDF)
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Contact Section */}
       <section id="contact" className={`py-5 ${darkMode ? 'bg-dark' : 'bg-white'}`}>
         <div className="container">
@@ -392,15 +338,15 @@ export default function Portfolio() {
                 Let's connect and build something amazing together!
               </p>
               <div className="d-flex gap-3 justify-content-center">
-                <a href="mailto:alex@example.com" className="btn btn-primary">
+                <a href="mailto:s.roy.355@westcliff.edu" className="btn btn-primary">
                   <Mail size={20} className="me-2" />
                   Email Me
                 </a>
-                <a href="#" className="btn btn-outline-primary">
+                <a href="https://www.linkedin.com/in/shaswati-roy-choudhury/" className="btn btn-outline-primary">
                   <Linkedin size={20} className="me-2" />
                   LinkedIn
                 </a>
-                <a href="#" className="btn btn-outline-primary">
+                <a href="https://github.com/shaswatiroy/" className="btn btn-outline-primary">
                   <Github size={20} className="me-2" />
                   GitHub
                 </a>
@@ -413,7 +359,7 @@ export default function Portfolio() {
       {/* Footer */}
       <footer className={`py-4 ${darkMode ? 'bg-black' : 'bg-dark'} text-light`}>
         <div className="container text-center">
-          <p className="mb-0">&copy; 2025 Alex Morgan. Built with React & Bootstrap 5.</p>
+          <p className="mb-0">&copy; 2025 Shaswati Roy Choudhury. Built with React & Bootstrap 5.</p>
         </div>
       </footer>
     </div>
